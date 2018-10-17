@@ -5,6 +5,30 @@ Strict Enumeration class.
 
 ---
 
+Example of usage
+```
+// Object creation
+final class Species extends Enum {
+    protected $enum = array('human','monkey','alien');
+}
+
+// Use Enum
+function checkSpecies(Species $enum) {
+    return ($enum <> 'alien') ? 'Hello' : 'Waaah!';
+}
+checkSpecies(new Species('monkey')); // returns 'Hello'
+
+
+// Use Enum with invalid value
+function checkSpecies(Species $enum) {
+    return ($enum <> 'alien') ? 'Hello' : 'Waaah!';
+}
+checkSpecies(new Species('lion')); // triggers warning: "Provided value is not part of this enumerated list" and returns  'Hello'
+
+```
+
+---
+
 European Union Public Licence, v. 1.1
 
 Unless required by applicable law or agreed to in writing, software
