@@ -23,7 +23,7 @@ checkSpecies(new Species('monkey')); // returns 'Hello'
 function checkSpecies(Species $enum) {
     return ($enum <> 'alien') ? 'Hello' : 'Waaah!';
 }
-checkSpecies(new Species('lion')); // triggers warning: "Provided value is not part of this enumerated list" and returns  'Hello'
+checkSpecies(new Species('lion')); // triggers Fatal Error: "Provided value is not part of this enumerated list" and returns  'Hello'
 
 ```
 
