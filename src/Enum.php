@@ -5,19 +5,6 @@ namespace Netsilik\Lib;
  * @package       v\Lib
  * @copyright (c) 2010-2018 Netsilik (http://netsilik.nl)
  * @license       EUPL-1.1 (European Union Public Licence, v1.1)
- *
- * Example of usage:
- *
- *   // Object creation
- *   final class Species extends Enum {
- *       protected $enum = array('human','monkey','alien');
- *   }
- *
- *   // Use Enum
- *   function checkSpecies(Species $enum) {
- *       return ($enum <> 'alien') ? 'Hello' : 'Waaah!';
- *   }
- *   checkSpecies(new Species('monkey'));
  */
 
 /**
