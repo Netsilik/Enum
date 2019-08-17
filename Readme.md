@@ -5,7 +5,7 @@ Strict Enumeration class.
 
 ---
 
-European Union Public Licence, v. 1.1
+MIT Licence
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the Licence is distributed on an "AS IS" basis,

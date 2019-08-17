@@ -4,7 +4,7 @@ namespace Netsilik\Lib;
 /**
  * @package       v\Lib
  * @copyright (c) 2010-2018 Netsilik (http://netsilik.nl)
- * @license       EUPL-1.1 (European Union Public Licence, v1.1)
+ * @license       MIT
  */
 
 /**
